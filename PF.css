@@ -469,7 +469,7 @@ body{
 
 
 
-@media only screen and (min-width:300px) and (max-width:600px)
+@media only screen and (min-width:400px) and (max-width:600px)
 {
     body{
       overflow:auto;
