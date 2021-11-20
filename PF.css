@@ -466,41 +466,50 @@ body{
 
 
 
-
-
-
-@media only screen and (max-device-width: 480px)
+@media only screen and (min-width:300px) and (max-width:600px)
 {
     body{
       overflow:auto;
+      height:400px;
+      width:400px;
     }
 
     .right-div{
       position:relative;
       top:100px;
       left:0%;
+      height:800px;
     }
 
     .left-div{
-      left:30%;
+      left:25%;
     }
 
 
 
     #about-div{
-      display:block;
+      display:none;
+    }
+    #about-left-div{
+      width:300px;
     }
     #about-right-div{
       position:relative;
       top:40px;
       left:1%;
+      width:300px;
     }
 
 
     #skills-div{
       display:none;
-      width:460px;
+      width:300px;
       text-align:center;
+    }
+    #skills-div h1,h4{
+      text-align:center;
+      position:relative;
+      left:50px;
     }
     #lang_frame{
       text-align:center;
@@ -520,10 +529,16 @@ body{
 
 
     #portfolio-div{
-      width:450px;
+      width:350px;
       position:relative;
       left:10px;
       display:none;
+    }
+    .project-div{
+      width:300px;
+    }
+    .project-image{
+      width:300px;
     }
     #project2{
       position:relative;
@@ -556,7 +571,8 @@ body{
      } 
      .container{
        position:relative;
-       top:10%;
+       left:-4%;
+       top:2%;
      }
      #linked-in{
       position:relative;
