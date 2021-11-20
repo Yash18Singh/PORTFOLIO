@@ -459,3 +459,129 @@ body{
 #contact-div{
     display:none;
 }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:600px)
+{
+    body{
+      overflow:auto;
+    }
+
+    .right-div{
+      position:relative;
+      top:100px;
+      left:0%;
+    }
+
+    .left-div{
+      left:30%;
+    }
+
+
+
+    #about-div{
+      display:block;
+    }
+    #about-right-div{
+      position:relative;
+      top:40px;
+      left:1%;
+    }
+
+
+    #skills-div{
+      display:none;
+      width:460px;
+      text-align:center;
+    }
+    #lang_frame{
+      text-align:center;
+      position:relative;
+      left:20%;
+    }
+    #tech-stacks{
+      position:relative;
+      top:100px;
+      left:20%;
+    }
+    #tools{
+      position:relative;
+      top:150px;
+      left:20%;
+    }
+
+
+    #portfolio-div{
+      width:450px;
+      position:relative;
+      left:10px;
+      display:none;
+    }
+    #project2{
+      position:relative;
+      top:20px;
+      left:7%;
+    }
+    #project3{
+      position:relative;
+      top:40px;
+    }
+    #project4{
+      position:relative;
+      top:70px;
+      left:7%;
+    }
+    #project5{
+      position:relative;
+      top:90px;
+    }
+    #project6{
+     position:relative;
+     top:120px;
+     left:7%;
+    }
+
+
+
+     #contact-div{
+       display:none;
+     } 
+     .container{
+       position:relative;
+       top:10%;
+     }
+     #linked-in{
+      position:relative;
+      left:80px;
+     }
+     #twitter{
+      position:relative;
+      top:200px;
+      right:150px;
+     }
+     #github{
+      position:relative;
+      top:400px;
+      right:380px;
+     }
+     #facebook{
+      position:relative;
+      top:600px;
+      right:610px;
+     }
+
+     #loading-div{
+       display:none;
+       position:relative;
+       left:17%;
+     }
+
+}
