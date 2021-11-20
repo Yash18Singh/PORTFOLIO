@@ -4,7 +4,7 @@ body{
     background:linear-gradient(rgb(0, 0, 0),black);
     margin:0;
     padding:0;
-    overflow:hidden;
+    height:600px;
 }
 
    
